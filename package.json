@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ganeshrockz.github.io/react-app-staging",
+  "homepage": "https://<account-name>.github.io/react-app-staging", 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
