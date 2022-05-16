@@ -11,8 +11,7 @@ class App extends Component {
 	}
 
   componentDidMount() {
-    //TODO: Enter the url of your staging heroku node app
-		fetch(`<url-of-your-heroku-app>`)
+		fetch(process.env.REACT_APP_HEROKU_APP_ENDPOINT)
 		  .then(res => res.json())
       .then(json => this.setState({ message: json['msg'] }));
 	}
