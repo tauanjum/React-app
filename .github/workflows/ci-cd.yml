@@ -27,6 +27,7 @@
 #   deploy-production:
 #     name: Deploy to production environment
 #     runs-on: ubuntu-latest
+#     needs: deploy-staging
 #     environment: Production
 #     env:
 #       repo: react-app-prod
